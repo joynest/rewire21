@@ -72,3 +72,15 @@ nav .main-logo {
     background-size: 3rem 3rem; /* Adjust the size to control the gap */
     background-position: 0px 1rem;
   }
+
+
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: rgb(255, 255, 255);
+}
