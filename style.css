@@ -68,13 +68,20 @@ nav .main-logo {
   }
 
   .dotted-background {
-    background: radial-gradient(circle, rgb(147, 147, 147) 1px, transparent 1px);
-    background-size: 3rem 3rem; /* Adjust the size to control the gap */
-    background-position: 0px 1rem;
+    background: radial-gradient(circle, rgb(209, 209, 209) 1px, transparent 1px);
+    background-size: 2.5rem 2.5rem; /* Adjust the size to control the gap */
+    background-position: 0px -1rem;
+  }
+
+  .feature-card{
+    width: 21rem;
+    height: 21rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
   }
 
 
-  footer {
+  /* footer {
     text-align: center;
     padding: 10px;
     background-color: #000000;
@@ -83,4 +90,74 @@ nav .main-logo {
     bottom: 0;
     left: 0;
     color: rgb(255, 255, 255);
+} */
+
+
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+  .website-heading{
+    width: 90vw;
+    font-size: 1.6rem;
+  }
+  .website-sub-heading{
+    width: 90vw;
+    font-size: .9rem;
+  }
+
+  /* CSS rules for extra small devices */
+}
+
+/* Small devices (phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* CSS rules for small devices */
+  .website-heading{
+    width: 90vw;
+    font-size: 1.6rem;
+  }
+  .website-sub-heading{
+    width: 80vw;
+    font-size: .9rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* CSS rules for medium devices */
+  .website-heading{
+    width: 90vw;
+    font-size: 2rem;
+  }
+  .website-sub-heading{
+    width: 70vw;
+    font-size: 1rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* CSS rules for large devices */
+  .website-heading{
+    width: 90vw;
+    font-size: 2.5rem;
+  }
+  .website-sub-heading{
+    width: 60vw;
+    font-size: 1rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* CSS rules for extra large devices */
+  .website-heading{
+    width: 90vw;
+    font-size: 2.5rem;
+  }
+  .website-sub-heading{
+    width: 50vw;
+    font-size: 1rem;
+  }
+
 }
